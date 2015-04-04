@@ -11,7 +11,7 @@ SpineHelper is a module for CoronaSDK that helps you to speed up the implementat
 
 ## Video Tutorial
 
-I also created a video course where you can learn everything from creating a character in Photoshop, to the whole process of animating the character to finally incorporating the animation in your Corona Project, you can find the video tutorials here: https://www.youtube.com/watch?v=3FGhJ6gRl4Q&list=PLKhvt82d5sfCE6KkM1V6Bs46GG4HOguP1
+I also created a video course where you can learn everything from creating a character in Photoshop, to the whole process of animating the character to finally incorporating the animation in your Corona Project, you can find the video tutorials here: https://www.youtube.com/playlist?list=PLKhvt82d5sfCE6KkM1V6Bs46GG4HOguP1
 
 ## Special Thanks
 
