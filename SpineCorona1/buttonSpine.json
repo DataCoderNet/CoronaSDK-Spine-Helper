@@ -1,0 +1,58 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "buttonBone", "parent": "root", "x": -1.09, "y": 400.95 }
+],
+"slots": [
+	{ "name": "greenGuy_bg", "bone": "root" },
+	{ "name": "button_button", "bone": "buttonBone", "attachment": "button_button" }
+],
+"skins": {
+	"default": {
+		"button_button": {
+			"button_button": { "width": 225, "height": 97 }
+		}
+	}
+},
+"animations": {
+	"animation2": {
+		"bones": {
+			"buttonBone": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -63.25, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": -63.25, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": -63.25 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 0.799, "y": 0.799 },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"startButton": {
+		"bones": {
+			"buttonBone": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -417.16, "y": 430.71 },
+					{ "time": 0.6666, "x": -15.05, "y": -55.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.1, "y": 0.1 },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}
